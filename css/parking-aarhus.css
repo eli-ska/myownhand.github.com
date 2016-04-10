@@ -1,0 +1,133 @@
+div.container{
+	padding: 0;
+	height: 780px;
+	width: 1200px
+}
+
+
+body div.container h1{
+	font-family: 'PT Serif', serif;
+	font-size: 36px;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin-bottom: 0px;
+	display: inline-block;
+	padding-left: 20px;
+	float: left;
+}
+
+body div.container h2{
+	font-family: 'PT Serif', serif;
+	font-size: 24px;
+	color: black;
+	margin: 0 0 10px 0;
+	font-weight: bold;
+}
+
+body div.container{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	background: -moz-linear-gradient(270deg, rgba(235,235,235,1) 0%, rgba(183,200,211,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(235,235,235,1)), color-stop(100%, rgba(183,200,211,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(270deg, rgba(235,235,235,1) 0%, rgba(183,200,211,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(270deg, rgba(235,235,235,1) 0%, rgba(183,200,211,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(270deg, rgba(235,235,235,1) 0%, rgba(183,200,211,1) 100%); /* ie10+ */
+background: linear-gradient(180deg, rgba(235,235,235,1) 0%, rgba(183,200,211,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EBEBEB', endColorstr='#B7C8D3',GradientType=0 ); /* ie6-9 */
+}
+
+header{
+	background-color: #23638C;
+	width: 100%;
+
+}
+
+/*.headerNav{
+	display: inline-block;
+	margin-left: 35px;
+}
+
+.headerNav a{
+	color: white;
+	margin-left: 15px;
+}
+
+.headerNav a.active{
+	background-color: #EBEBEB;
+	color: black;
+	font-weight:bold;
+}*/
+
+.headerTabs{
+	display: inline-block;
+	padding-top: 20px;
+	float: left;
+	margin-left: 110px;
+}
+
+.headerTabs li a{
+	color: white
+}
+
+.headerTabs li.active a{
+	background-color: #E6EBEF !important;
+	color: black;
+	font-weight:bold;
+}
+
+.options{
+	padding-left: 20px;
+	display: inline-block;
+	float: left;
+	width: 400px;
+}
+
+form label{
+	display: block;
+	margin-bottom: 10px;
+}
+
+form input{
+	margin-left: 10px;
+	width: 260px;
+}
+
+.options form{
+	margin-top: 35px;
+}
+
+.whiteDiv{
+	display: block;
+	height: 40px;
+}
+
+
+div.map{
+	display: inline-block;
+	margin-top: 25px;
+}
+
+div.map img{
+	width: 720px;
+}
+
+
+footer{
+	background-color: #23638C;
+	width: 100%;
+	padding: 30px 120px;
+}
+
+footer p{
+	color: #E6EBEF;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+
+div.search{
+	margin-top: 15px;
+    width: 220px;
+    float: right;
+    padding-right: 25px;
+}
+
